@@ -1,0 +1,24 @@
+{
+  "id": "herobrine",
+  "title": "Herobrine",
+  "status": "draft",
+  "difficulty": "medium",
+  "source_classification": "fan-made",
+  "summary": "A structured investigation into the enduring Herobrine myth.",
+  "description": "Players compare sightings, environmental anomalies, and competing explanations before reaching a documented conclusion.",
+  "warnings": [
+    "Do not present fan-made claims as documented Minecraft history.",
+    "A lack of evidence is itself a possible investigation result."
+  ],
+  "timeline": [],
+  "lore_entries": [],
+  "clues": [],
+  "evidence": [],
+  "theories": [],
+  "reveal": {
+    "type": "progression",
+    "required_clue_ids": [],
+    "text": "The initial content pack must define the evidence required before this reveal is enabled."
+  },
+  "connections": []
+}

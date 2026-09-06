@@ -1,0 +1,12 @@
+{
+  "locations": [
+    {
+      "id": "mystery-lab",
+      "name": "Mystery Lab",
+      "description": "A configurable investigation location used by science and spider events.",
+      "discovery_rules": [
+        { "type": "structure-near-spawn", "structure": "loreio:mystery_lab" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "lore-io-content",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:content": "node scripts/validate-content.mjs"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "universe_id": "spider-man",
+  "characters": [
+    {
+      "id": "spider-man",
+      "name": "Spider-Man",
+      "alignment": "hero",
+      "player_assignable": true,
+      "abilities": ["web-mobility", "spider-sense"]
+    },
+    {
+      "id": "miles-morales",
+      "name": "Miles Morales",
+      "alignment": "hero",
+      "player_assignable": true,
+      "abilities": ["venom-strike", "web-mobility"]
+    },
+    {
+      "id": "ghost-spider",
+      "name": "Ghost-Spider",
+      "alignment": "hero",
+      "player_assignable": true,
+      "abilities": ["web-mobility", "evasive-movement"]
+    },
+    {
+      "id": "venom",
+      "name": "Venom",
+      "alignment": "villain",
+      "player_assignable": true,
+      "abilities": ["symbiote-strength", "wall-crawling"]
+    },
+    {
+      "id": "thanos",
+      "name": "Thanos",
+      "alignment": "villain",
+      "player_assignable": true,
+      "abilities": ["overwhelming-force"]
+    },
+    {
+      "id": "spot",
+      "name": "Spot",
+      "alignment": "villain",
+      "player_assignable": true,
+      "abilities": ["portal-step", "unpredictable-teleport"]
+    }
+  ]
+}

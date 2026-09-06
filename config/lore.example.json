@@ -1,0 +1,10 @@
+{
+  "content_root": "data",
+  "enabled_universes": [
+    "minecraft-myths",
+    "spider-man"
+  ],
+  "default_creator_mode": "none",
+  "allow_friends_by_default": true,
+  "debug_events": false
+}

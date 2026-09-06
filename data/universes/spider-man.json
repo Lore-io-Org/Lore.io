@@ -1,0 +1,36 @@
+{
+  "id": "spider-man",
+  "name": "Spider-Man",
+  "description": "A superhero event pack built around powers, rivalries, and unexpected encounters.",
+  "enabled": true,
+  "tutorial": [
+    "Choose a character and stay alert for role-specific events.",
+    "Team objectives can change when a player becomes a villain or triggers an encounter."
+  ],
+  "creator_setup": {
+    "ask_youtube_mode": true,
+    "ask_ridiculous_mode_only_if_youtube": true,
+    "ask_allow_friends_independently": true
+  },
+  "myth_ids": [],
+  "character_ids": [
+    "spider-man",
+    "miles-morales",
+    "ghost-spider",
+    "venom",
+    "thanos",
+    "spot"
+  ],
+  "event_rule_ids": [
+    "lab-spider",
+    "radioactive-spider",
+    "spider-bite",
+    "spider-man-outcome",
+    "enemy-bots",
+    "miles-spot",
+    "spider-team"
+  ],
+  "spawn_location_ids": [
+    "mystery-lab"
+  ]
+}

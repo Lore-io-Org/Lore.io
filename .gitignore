@@ -1,0 +1,34 @@
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Minecraft and loader runtime output
+run/
+logs/
+crash-reports/
+saves/
+mods/
+config/*.local.json
+
+# Build output
+build/
+out/
+bin/
+classes/
+dist/
+*.class
+*.jar
+
+# Node and tooling caches, if used by future data tooling
+node_modules/
+.npm/
+.pnpm-store/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.local

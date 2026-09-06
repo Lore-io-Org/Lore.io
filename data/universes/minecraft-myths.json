@@ -1,0 +1,23 @@
+{
+  "id": "minecraft-myths",
+  "name": "Minecraft Myths",
+  "description": "Investigate myths and unexplained stories inside Minecraft.",
+  "enabled": true,
+  "tutorial": [
+    "Explore carefully and record clues before confronting a threat.",
+    "Not every unusual event is hostile, but every enabled myth has a path to a conclusion."
+  ],
+  "creator_setup": {
+    "ask_youtube_mode": true,
+    "ask_ridiculous_mode_only_if_youtube": true,
+    "ask_allow_friends_independently": true
+  },
+  "myth_ids": [
+    "herobrine"
+  ],
+  "character_ids": [],
+  "event_rule_ids": [],
+  "spawn_location_ids": [
+    "mystery-lab"
+  ]
+}

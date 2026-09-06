@@ -1,0 +1,87 @@
+{
+  "universe_id": "spider-man",
+  "rules": [
+    {
+      "id": "lab-spider",
+      "name": "Spider in Mystery Lab",
+      "enabled": true,
+      "probability": 10,
+      "trigger": { "type": "location-entered", "location_id": "mystery-lab" },
+      "conditions": [],
+      "effects": [
+        { "type": "spawn-entity", "entity": "minecraft:spider", "properties": ["random-size", "random-temperament"] }
+      ],
+      "cooldown": "once-per-session"
+    },
+    {
+      "id": "radioactive-spider",
+      "name": "Radioactive Spider",
+      "enabled": true,
+      "probability": 50,
+      "trigger": { "type": "entity-spawned", "entity": "minecraft:spider" },
+      "conditions": [{ "type": "creator-mode", "in": ["ridiculous", "non-ridiculous"] }],
+      "effects": [{ "type": "mark-encounter", "tag": "radioactive" }]
+    },
+    {
+      "id": "spider-bite",
+      "name": "Spider Bite",
+      "enabled": true,
+      "probability": 36,
+      "trigger": { "type": "entity-interaction", "entity": "minecraft:spider" },
+      "conditions": [],
+      "effects": [{ "type": "grant-role", "role": "spider-powered" }]
+    },
+    {
+      "id": "spider-man-outcome",
+      "name": "Spider-Man Outcome",
+      "enabled": true,
+      "probability": 44,
+      "trigger": { "type": "role-granted", "role": "spider-powered" },
+      "conditions": [],
+      "effects": [{ "type": "start-event-chain", "chain_id": "creator-lab-route" }]
+    },
+    {
+      "id": "enemy-bots",
+      "name": "Arch-enemy Deployment",
+      "enabled": true,
+      "probability": null,
+      "trigger": { "type": "character-assigned", "character_ids": ["spider-man"] },
+      "conditions": [],
+      "effects": [{ "type": "spawn-encounter", "encounter": "enemy-bots" }]
+    },
+    {
+      "id": "miles-spot",
+      "name": "Spot Encounter",
+      "enabled": true,
+      "probability": null,
+      "trigger": { "type": "character-assigned", "character_ids": ["miles-morales"] },
+      "conditions": [],
+      "effects": [{ "type": "start-event-chain", "chain_id": "multiplayer-spider-event" }]
+    },
+    {
+      "id": "spider-team",
+      "name": "Spider-Team Formation",
+      "enabled": true,
+      "probability": null,
+      "trigger": { "type": "team-size-reached", "team": "hero", "minimum": 2 },
+      "conditions": [],
+      "effects": [{ "type": "unlock-objective", "objective": "protect-the-lab" }]
+    }
+  ],
+  "chains": [
+    {
+      "id": "creator-lab-route",
+      "name": "Creator Lab Route",
+      "enabled": true,
+      "multiplayer_required": false,
+      "steps": ["lab-spider", "spider-bite", "spider-man-outcome"]
+    },
+    {
+      "id": "multiplayer-spider-event",
+      "name": "Multiplayer Spider Event",
+      "enabled": true,
+      "multiplayer_required": true,
+      "steps": ["miles-spot", "spider-team"]
+    }
+  ]
+}
