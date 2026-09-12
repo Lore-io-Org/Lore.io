@@ -1,7 +1,7 @@
 {
   "id": "spider-man",
   "name": "Spider-Man",
-  "description": "A superhero event pack built around powers, rivalries, and unexpected encounters.",
+  "description": "A superhero universe built around playable characters, role-based events, rivalries, and unexpected encounters.",
   "enabled": true,
   "tutorial": [
     "Choose a character and stay alert for role-specific events.",
