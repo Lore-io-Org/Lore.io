@@ -1,0 +1,35 @@
+{
+  "provider": "goodbarber",
+  "provider_type": "article",
+  "provider_id": "98083755",
+  "title": "Minecraft Myths That Were Proven False",
+  "slug": "minecraft-myths-were-proven-false",
+  "date": "2026-09-19T12:29:00+02:00",
+  "leadin": "",
+  "author": "AbdulSamad Arilewola",
+  "meta": {
+    "title": "",
+    "description": ""
+  },
+  "commentsEnabled": true,
+  "status": "published",
+  "pinned": false,
+  "accessTier": "free",
+  "maxFreeParagraphs": 0,
+  "displaySummaryInList": true,
+  "categories": [
+    16929912
+  ],
+  "paragraphs": [
+    {
+      "id": 68299478,
+      "position": 1,
+      "type": "text",
+      "content": "",
+      "caption": "",
+      "embedUrl": "",
+      "isThumbnail": false,
+      "originalThumbnail": ""
+    }
+  ]
+}
