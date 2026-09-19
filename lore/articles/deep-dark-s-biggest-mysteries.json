@@ -1,0 +1,35 @@
+{
+  "provider": "goodbarber",
+  "provider_type": "article",
+  "provider_id": "98083701",
+  "title": "The Deep Dark’s Biggest Mysteries",
+  "slug": "deep-dark-s-biggest-mysteries",
+  "date": "2026-09-19T12:26:00+02:00",
+  "leadin": "",
+  "author": "AbdulSamad Arilewola",
+  "meta": {
+    "title": "",
+    "description": ""
+  },
+  "commentsEnabled": true,
+  "status": "published",
+  "pinned": false,
+  "accessTier": "free",
+  "maxFreeParagraphs": 0,
+  "displaySummaryInList": true,
+  "categories": [
+    16929912
+  ],
+  "paragraphs": [
+    {
+      "id": 68299460,
+      "position": 1,
+      "type": "text",
+      "content": "",
+      "caption": "",
+      "embedUrl": "",
+      "isThumbnail": false,
+      "originalThumbnail": ""
+    }
+  ]
+}
