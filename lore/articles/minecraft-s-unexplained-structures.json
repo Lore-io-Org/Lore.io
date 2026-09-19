@@ -1,0 +1,35 @@
+{
+  "provider": "goodbarber",
+  "provider_type": "article",
+  "provider_id": "98083700",
+  "title": "Minecraft’s Unexplained Structures",
+  "slug": "minecraft-s-unexplained-structures",
+  "date": "2026-09-19T12:25:00+02:00",
+  "leadin": "",
+  "author": "AbdulSamad Arilewola",
+  "meta": {
+    "title": "",
+    "description": ""
+  },
+  "commentsEnabled": true,
+  "status": "published",
+  "pinned": false,
+  "accessTier": "free",
+  "maxFreeParagraphs": 0,
+  "displaySummaryInList": true,
+  "categories": [
+    16929912
+  ],
+  "paragraphs": [
+    {
+      "id": 68299459,
+      "position": 1,
+      "type": "text",
+      "content": "",
+      "caption": "",
+      "embedUrl": "",
+      "isThumbnail": false,
+      "originalThumbnail": ""
+    }
+  ]
+}
